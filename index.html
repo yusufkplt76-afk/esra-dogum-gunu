@@ -1,0 +1,20 @@
+<script>
+let messages = [
+"Merhaba Esra 💙",
+"Ben senin CinnaMINIroll'unum!",
+"Bugün çok özel bir gün...",
+"Çünkü sen doğdun 🌸",
+"Ve biri seni çooook seviyor 👀"
+];
+
+let index = 0;
+
+document.getElementById("cinna").onclick = function() {
+  document.getElementById("bubble").innerText = messages[index];
+  index++;
+  if(index >= messages.length) index = 0;
+};
+</script>
+
+</body>
+</html>
